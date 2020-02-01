@@ -23,7 +23,6 @@ public class SelectionSortLecture {
             // Default initialization of index of the largest element. Could be any position.
             int indexLargestValue = 0;
 
-            // Initializes at index no 1 because of the default position, wich is 0
             for (int j = 0; j <= i; j++) {
                 if (elements[j] > elements[indexLargestValue]) {
                     indexLargestValue = j;
